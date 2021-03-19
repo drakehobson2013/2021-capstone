@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/2021-capstone/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/2021-capstone/static/js/main.a31a76ce.chunk.js",
-    "main.js.map": "/2021-capstone/static/js/main.a31a76ce.chunk.js.map",
-    "runtime-main.js": "/2021-capstone/static/js/runtime-main.8678d790.js",
-    "runtime-main.js.map": "/2021-capstone/static/js/runtime-main.8678d790.js.map",
-    "static/js/2.db39837d.chunk.js": "/2021-capstone/static/js/2.db39837d.chunk.js",
-    "static/js/2.db39837d.chunk.js.map": "/2021-capstone/static/js/2.db39837d.chunk.js.map",
-    "static/js/3.4a34e60f.chunk.js": "/2021-capstone/static/js/3.4a34e60f.chunk.js",
-    "static/js/3.4a34e60f.chunk.js.map": "/2021-capstone/static/js/3.4a34e60f.chunk.js.map",
+    "main.css": "/2021-capstone/static/css/main.45ae06be.chunk.css",
+    "main.js": "/2021-capstone/static/js/main.25028379.chunk.js",
+    "main.js.map": "/2021-capstone/static/js/main.25028379.chunk.js.map",
+    "runtime-main.js": "/2021-capstone/static/js/runtime-main.9615f20d.js",
+    "runtime-main.js.map": "/2021-capstone/static/js/runtime-main.9615f20d.js.map",
+    "static/css/2.e4e35064.chunk.css": "/2021-capstone/static/css/2.e4e35064.chunk.css",
+    "static/js/2.05469cb9.chunk.js": "/2021-capstone/static/js/2.05469cb9.chunk.js",
+    "static/js/2.05469cb9.chunk.js.map": "/2021-capstone/static/js/2.05469cb9.chunk.js.map",
+    "static/js/3.b13ecc24.chunk.js": "/2021-capstone/static/js/3.b13ecc24.chunk.js",
+    "static/js/3.b13ecc24.chunk.js.map": "/2021-capstone/static/js/3.b13ecc24.chunk.js.map",
     "index.html": "/2021-capstone/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/2021-capstone/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.db39837d.chunk.js.LICENSE.txt": "/2021-capstone/static/js/2.db39837d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/2021-capstone/static/media/logo.6ce24c58.svg"
+    "static/css/2.e4e35064.chunk.css.map": "/2021-capstone/static/css/2.e4e35064.chunk.css.map",
+    "static/css/main.45ae06be.chunk.css.map": "/2021-capstone/static/css/main.45ae06be.chunk.css.map",
+    "static/js/2.05469cb9.chunk.js.LICENSE.txt": "/2021-capstone/static/js/2.05469cb9.chunk.js.LICENSE.txt",
+    "static/media/Aarika.dfe9b85b.jpg": "/2021-capstone/static/media/Aarika.dfe9b85b.jpg",
+    "static/media/Cincy.8a503a40.mp4": "/2021-capstone/static/media/Cincy.8a503a40.mp4",
+    "static/media/Drake.97f7a9a2.jpg": "/2021-capstone/static/media/Drake.97f7a9a2.jpg",
+    "static/media/FlyingPig.fd4a7815.jpg": "/2021-capstone/static/media/FlyingPig.fd4a7815.jpg",
+    "static/media/Kiah.f6a19b95.jpg": "/2021-capstone/static/media/Kiah.f6a19b95.jpg",
+    "static/media/index.css": "/2021-capstone/static/media/shoppage.8b52d674.jpg",
+    "static/media/Ron.8a14e3f8.jpeg": "/2021-capstone/static/media/Ron.8a14e3f8.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8678d790.js",
-    "static/js/2.db39837d.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.a31a76ce.chunk.js"
+    "static/js/runtime-main.9615f20d.js",
+    "static/css/2.e4e35064.chunk.css",
+    "static/js/2.05469cb9.chunk.js",
+    "static/css/main.45ae06be.chunk.css",
+    "static/js/main.25028379.chunk.js"
   ]
 }
