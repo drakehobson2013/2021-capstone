@@ -21,9 +21,9 @@ AOS.init();
             {/* <h3>About the Team</h3> */}
          <header id="about-header">
          <div className="container-fluid" id="about-head-bg">
-             <div>
-                 <h3 className="bigger-font text-white">Meet the Team</h3>
-                 <p className="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, eius error. Nostrum corrupti, quam modi repellendus voluptatem tempore reiciendis voluptates explicabo dolorem laborum obcaecati tempora reprehenderit labore dolore quis ad, dolores deleniti fugit, sequi atque! Vel magni harum, nam animi molestiae facere iure iusto fuga beatae corporis qui possimus sit!</p>
+             <div id="about-text">
+                 <h3 className="bigger-font">Meet the Team</h3>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, eius error. Nostrum corrupti, quam modi repellendus voluptatem tempore reiciendis voluptates explicabo dolorem laborum obcaecati tempora reprehenderit labore dolore quis ad, dolores deleniti fugit, sequi atque! Vel magni harum, nam animi molestiae facere iure iusto fuga beatae corporis qui possimus sit!</p>
              </div>
          </div>
 
@@ -40,8 +40,6 @@ AOS.init();
 
     {/* <img className="cincy shadow-lg"  data-aos="fade-down" src={MetroCincy} alt="Metro Cincinnati Aerial Map"/> */}
     
-    
-<br/>
 
             <div className= 'post-container'>
             <div className= 'card-deck-4' id='deck'>
@@ -50,7 +48,7 @@ AOS.init();
                 <div className="image">
             <img src={Drake} alt="Drake" id="drake" />
                 </div>
-            <p> <blockquote  className="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae eius sunt eveniet. Repudiandae, earum veritatis doloremque unde ad dolor!
+            <p> <blockquote  className="text-center" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae eius sunt eveniet. Repudiandae, earum veritatis doloremque unde ad dolor!
             <br/>
             - Drake</blockquote>
             </p>

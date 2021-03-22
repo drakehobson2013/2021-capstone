@@ -102,6 +102,7 @@ div.about {
   height: 150px;
  border-radius: 50%;
   border-Width: 3;
+  text-shadow: 3px yellowgreen;
 }
 #aarika{
   align-self: flex-end;
@@ -162,6 +163,11 @@ img.cincy{
 #about-header{
   height: 700px;
 width: 100%;
+}
+#about-text{
+  font-size: 35px;
+  text-shadow: #F4FAFF 10%;
+  
 }
 
 

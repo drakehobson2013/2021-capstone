@@ -1,7 +1,44 @@
 import React from 'react'
 import Cincy from './Cincy.mp4'
+
+
 const Home = () => {
+
+//   //Modal for the JS pop up 
+
+// <div className="modal" tabindex="-1" aria-hidden="true">
+// <div className="modal-dialog">
+//   <div className="modal-content">
+//     <div className="modal-header">
+//       <h4 className="modal-title"> Stay Connected With Us!</h4>
+//       <button type="button" className="btn-close" data-dismiss="modal" aria-label="Close">
+
+//       </button>
+//     </div>
+//     <div className="modal-body">
+//       <input type="text" placeholder="First Name"/>
+//       <input type="text" placeholder="Last Name"/>
+//       <input type="text" placeholder="E-mail"/>
+//     </div>
+//     <div className="modal-footer">
+//       <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+//       <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+//     </div>
+//   </div>
+// </div>
+// </div>
+
+// var NewsLetterModal = document.getElementById('myModal')
+// var myInput = document.getElementById('myInput')
+
+// myModal.addEventListener('shown.bs.modal', function () {
+//   myInput.focus()
+// })
+  
     return (
+
+      
+
         <div id="home">
             <video id="slider" autoPlay muted loop>
             <source src={""}></source>
@@ -14,14 +51,19 @@ const Home = () => {
             </ul>
         </div>
 
+        
+
       
     )
+    
+
+    
     
 }
 
 export default Home
 
-{/* <Carousel fade>
+/* <Carousel fade>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -57,4 +99,4 @@ export default Home
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>  */}
+</Carousel>  */
