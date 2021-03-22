@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import FlyingPig from "./hoc/FlyingPig.jpg";
 
 export default class Navbar extends Component {
@@ -14,25 +14,33 @@ export default class Navbar extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navBarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item active">
-        <a href="/" className="nav-link">Home</a>
-      </li>
-      <li className="nav-item active">
-      <a href="/about" className="nav-link">About</a>
-      </li>
-      <li className="nav-item active">
-      <a href="/contact" className="nav-link">Contact</a>
-      </li>
+      <Link to='/' className="nav-link">Home
+        {/* <a href="/" className="nav-link">Home</a> */}
+      </Link>
+      <Link to='/about' className="nav-link">About
+      {/* <a href="/about" className="nav-link">About</a> */}
+      </Link>
+      <Link to='/contact' className="nav-link">Contact
+      {/* <a href="/contact" className="nav-link">Contact</a> */}
+      </Link>
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Things To Do
           </a>
         <div className="dropdown-menu">
         
-        <a href="/restaurant" className="dropdown-item">Eat local</a>
-        <a href="/shop" className="dropdown-item">Shop local</a>
-        <a href="/attraction" className="dropdown-item">Attractions</a>
-        <a href="/history" className="dropdown-item">Cincy History</a>
+        <Link to='/restaurant' className="dropdown-item">Eat Local
+        {/* <a href="/restaurant" className="dropdown-item">Eat local</a> */}
+        </Link>
+        <Link to='/shop' className="dropdown-item">Shop Local
+        {/* <a href="/shop" className="dropdown-item">Shop local</a> */}
+        </Link>
+        <Link to='/attraction' className="dropdown-item">Attractions
+        {/* <a href="/attraction" className="dropdown-item">Attractions</a> */}
+        </Link>
+        <Link to='/history' className="dropdown-item">Cincy History
+        {/* <a href="/history" className="dropdown-item">Cincy History</a> */}
+        </Link>
         </div>
       </li>
     </ul>
