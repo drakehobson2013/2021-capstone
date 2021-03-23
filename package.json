@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "heroku-postbuild":"",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
