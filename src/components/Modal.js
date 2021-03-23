@@ -1,6 +1,6 @@
-$('#NewsLetterModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  })
+// $('#NewsLetterModal').on('shown.bs.modal', function () {
+//     $('#myInput').trigger('focus')
+//   })
 
 //   window.alert();{
 //     <div id="myModal" class="modal">
