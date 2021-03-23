@@ -1,37 +1,30 @@
-// $('#NewsLetterModal').on('shown.bs.modal', function () {
-//     $('#myInput').trigger('focus')
-//   })
+import React from 'react'
 
-//   window.alert();{
-//     <div id="myModal" class="modal">
+// const Modal= () => {
+//     constructor();{
+//         super();
+//         this.state= {
+//             show: false
+//         };
+//         this.showModal = this.showModal.bind(this);
+//         this.hideModal = this.hideModal.bind(this);
+//     ;
+//     showModal = () => {
+//         this.setState({ show: true });
+//     };
+//     hideModal = () => {
+//         this.setState({ show: false });
+//     };
+//     render();{
+//         return(
+//             <main>
+//                 <h1>Stay Connected With Our Newsletter!</h1>
+//                 <button type="button" onClick={this.showModal}>Click Here 
+//                 </button>
+//             </main>
+//         );
+//     };
+// }
 
-// Newsletter modal for JS pop up. 
-
-{/* <div className="modal" tabindex="-1" aria-hidden="true">
-<div className="modal-dialog">
-  <div className="modal-content">
-    <div className="modal-header">
-      <h4 className="modal-title"> Stay Connected With Us!</h4>
-      <button type="button" className="btn-close" data-dismiss="modal" aria-label="Close">
-
-      </button>
-    </div>
-    <div className="modal-body">
-      <input type="text" placeholder="First Name"/>
-      <input type="text" placeholder="Last Name"/>
-      <input type="text" placeholder="E-mail"/>
-    </div>
-    <div className="modal-footer">
-      <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-      <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
-    </div>
-  </div>
-</div>
-</div>
-
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-}) */}
+// }
+// export default Modal

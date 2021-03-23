@@ -1,16 +1,18 @@
 import React from 'react'
+import Drake from './Drake.jpg';
+import Kiah from './Kiah.jpg';
+import Aarika from './Aarika.jpg';
+import Ron from './Ron.jpeg';
 
 const footer = () => {
     return (
         
-<footer class="w3-container w3-padding-64 w3-center w3-xlarge fixed-bottom">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">react</a></p>
+<footer class="text-center fixed-bottom">
+<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg" src={Drake} alt=""/></a>
+<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg" src={Kiah} alt=""/></a>
+<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg noOvals" src={Aarika} alt=""/></a>
+<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg noOvals" src={Ron} alt=""/></a>
+  <p className="w3-medium text-white">Follow us on GitHub | ThisIsCincy©2021</p>
 </footer>
             
         

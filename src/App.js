@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Modal from './components/Modal';
+
 
 // Import Components
 import Navbar from "./components/Navbar";
@@ -29,7 +31,7 @@ function App() {
     <Switch>  
      <Route exact path="/" component={Home} />
      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
+     <Route path="/contact" component={Contact} />
      <Route path="/attraction" component={Attractions} />  
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
@@ -45,8 +47,26 @@ function App() {
     </div>
   
     </Router>
-    
+
+
+
+   
   );
+  
 }
 
 export default App;
+
+
+  render();{
+      return(
+          <main>
+              <h1>Stay Connected With Our Newsletter!</h1>
+              <button type="button" onClick={this.showModal}>Click Here 
+              </button>
+          </main>
+      );
+  }
+
+export default Modal
+
