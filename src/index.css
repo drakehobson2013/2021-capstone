@@ -8,6 +8,7 @@ nav{
   font-family: cursive;
   font-size: 20px;
   height: auto;
+  
 }
 
 footer{
@@ -44,18 +45,16 @@ a.nav-link:hover{
 
 
 .gitImg{
-  border-radius: 50%;
-  height: 35px;
-  margin-top: 10px;
-  margin-left: 15px;
-  background: #EF476F;
+  height: 75px;
+  margin-top: -4px;
+  margin-left: -2px;
 }
 .gitImg:hover{
   opacity: 0.6;
 }
 
 .margin{
-margin-bottom: 115px;
+margin-bottom: 125px;
 padding: 0;
 box-sizing: border-box ;
 }
@@ -116,12 +115,17 @@ div.about {
   border-Color: red
   
 } */
+#intro{
+  font-size: 20px;
+}
+
 #drake {
   align-self: flex-end;
   width: 150px;
   height: 150px;
  border-radius: 50%;
   border-Width: 3;
+  text-shadow: 3px yellowgreen;
 }
 #aarika{
   align-self: flex-end;
@@ -183,6 +187,12 @@ img.cincy{
   height: 700px;
 width: 100%;
 }
+#about-text{
+  font-size: 20px;
+  text-shadow: #17181a 15%;
+  color: #faf6f8;
+  
+}
 
 
 
@@ -202,6 +212,8 @@ width: 100%;
 /* importing google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+
 
 
  #header-section-shop{
@@ -264,7 +276,11 @@ width: 100%;
 }
 
 .bigger-font{
-  font-size: 50px;
+  font-size: 100px;
+  color: #EF476F;
+  font-weight: 30px;
+  
+  
 }
 
 /* gradient background div */
@@ -276,7 +292,7 @@ width: 100%;
 
 .cardsize{
   max-width: 540px;
-  z-index: 1;
+ 
 }
 
 .zooani{
@@ -302,7 +318,8 @@ height: 400px;
 }
 
 .titlestyle{
-  font-size: 40px;
+  font-size:50px;
+
 }
 
 .card-shopattract-text{
@@ -321,19 +338,59 @@ height: 400px;
 #shop2{
 margin-bottom: 40px;
 height: 385px;
+width: 100%;
+}
+
+#coneyimg{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+#cincyhistory{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 /* css for the div between header and cards */
 .shop-info{
-margin-top: 320px;
-margin-bottom: 70px;
+/* margin-top: 120px; */
+/* margin-bottom: 70px; */
+border-style: solid;
+border-color: black;
+width:650px;
+
 }
 
+.parent{
+  position: relative;
+  height:1000px;
+  margin-bottom: 100px;
+  margin-top: 300px;
+  background-color:  #EF476F;
+
+
+ 
+
+}
+
+.child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  background-color: white;
+
+}
 /* the h2 text below header */
 .shoptextstyle{
   font-family: 'Nunito', sans-serif;
   font-size: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+  font-weight:100px;
 }
 
 /* to create a margin around my content */
@@ -341,6 +398,23 @@ margin-bottom: 70px;
   margin-bottom: 200px;
 }
 
+
+.aqua{
+  font-size: 20px;
+  text-align:justify ;
+  font-family: 'Krub', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bat{
+  font-size: 20px;
+  font-weight: 40px;
+}
+
+.wonder{
+  font-size: 20px;
+}
 /* shop and attraction css end */
 
 

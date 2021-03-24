@@ -16,8 +16,8 @@ const Shop = props => (
 <div className="col-md-8">
 <div className="card-body card-shopattract-text zooani">
    <h4 className="card-title titlestyle">{props.shop.name}</h4>
-   <p className='card-text'>{props.shop.description}</p>
-   <p>{props.shop.address} {props.shop.city} {props.shop.state}, {props.shop.zipcode}</p>
+   <p className='card-text wonder'>{props.shop.description}</p>
+   <p>{props.shop.address} {props.shop.city}, {props.shop.state} {props.shop.zipcode}</p>
  
  
  </div>
@@ -63,23 +63,24 @@ export default class shopLocal extends Component {
       <header id="header-section-shop">
       <div className="container-fluid shoptophead">
       <div className="header-text">
-      <h2 className="bigger-font text-white">SHOPPING</h2>
-      <p>Whether it’s luxury designer boutiques, concept shops or outlet malls.</p>
+      <h2 className="bigger-font ">SHOPPING</h2>
+      <p className="bat">From signature stores to high-quality shopping centers</p>
       </div>
       </div>
       </header>
 
-      <div className="shop-info text-center">
-      <h2 className="shoptextstyle">SHOPPING</h2>
+      <div className="container-fluid parent">
+      <div className="shop-info child">
+      <h2 className="shoptextstyle">SHOPPING IN CINCINNATI</h2>
       <div >
         <img src={Shop2} alt="woman shopping " id="shop2"/>
-       <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
+       <p className="aqua"> Whether you’re looking for bargain deals on designer clothes or antiques with a history, we’ve got the resources for you to shop ‘til you drop. Head out for the day and explore locally-owned boutiques, outlet stores, shopping malls – and even some fun foodie finds at local markets and shops. You won’t go home empty-handed!</p>
       </div>
-     
+     </div>
  
       </div>
 
-      <div >
+      <div className="bodyody">
            { this.shopLocal()  }
                 </div>
      

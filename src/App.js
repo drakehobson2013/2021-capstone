@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 // Import Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -16,6 +17,7 @@ import CreateRestaurant from "./components/CreateRestaurant";
 import CreateHistory from "./components/CreateHistory";
 import CreateShop from "./components/CreateShop";
 import CreateAttraction from "./components/CreateAttraction";
+import Modal from './components/Modal';
 
 
 function App() {
@@ -41,12 +43,31 @@ function App() {
      <Route path="/createShop" component={CreateShop} />
  
     </Switch> 
+
+    {/* <main>
+      <h1>Stay Connected With Our Newsletter!</h1>
+      <button type="button" onClick={this.showModal}>Click Here 
+      </button>
+  </main> */}
      <Footer /> 
     </div>
   
+
     </Router>
-    
+
+
+  
+
+
+   
   );
+  
 }
 
-export default App;
+export default App
+
+
+  
+
+
+
