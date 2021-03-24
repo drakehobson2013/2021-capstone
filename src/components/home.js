@@ -3,6 +3,10 @@ import Rhinegeist from './Images/Rhinegeist.png'
 import Platform from './Images/Platform.png'
 import FiftyWest from './Images/FiftyWest.png'
 import Urban from './Images/Urban.png'
+import Reds from './Images/Reds.png'
+import Bengals from './Images/Bengals.png'
+import UC from './Images/UC.png'
+import FC from './Images/FC.png'
 const Home = () => {
     return (
 <div className="margin">
@@ -28,13 +32,22 @@ const Home = () => {
             </div>
           </div>
           <div className="col-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pKwuW06NvXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div className="jumbotron bg-danger">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/G8EUiH00BrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div className="jumbotron bg-danger">
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestias nostrum sint possimus excepturi provident?</span>
       </div>
           </div>
           <div className="col-3">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error totam facilis minima culpa, porro nisi deleniti explicabo alias ut fugit incidunt repellendus officia delectus enim eos numquam obcaecati quam corrupti.</p>
+          <h2>Catch a game!</h2>
+          <p className="text-center">Cincinnati has many options when it comes to attending sporting events. Whether it be at Great American Ballpark to watch the Cincinnati Reds or Paul Brown Stadium for the Cincinnati Bengals. Maybe soccer is more your speed. The recently acquired FC Cincinnati has you covered. Head on over to the University Of Cincinnati to catch some collegiate games. Whichever you choose, you're guaranteed to have an excellent experience.</p>
+          <h5>Hometown Favorites</h5>
+          <hr/>
+            <div className="container">
+              <img className="logos" src={Reds} alt=""/>
+              <img className="logos" src={Bengals} alt=""/>
+              <img className="logos" src={UC} alt=""/>
+              <img className="logos" src={FC} alt=""/>
+            </div>
           </div>
         </div>
       </div>

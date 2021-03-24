@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Modal from './components/Modal';
 
 
 // Import Components
@@ -18,6 +17,7 @@ import CreateRestaurant from "./components/CreateRestaurant";
 import CreateHistory from "./components/CreateHistory";
 import CreateShop from "./components/CreateShop";
 import CreateAttraction from "./components/CreateAttraction";
+import Modal from './components/Modal';
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
      <Route path="/history" component={CincyHistory} />
-     <Route exact path="/create" component={CreateRestaurant} />
+     <Route path="/create" component={CreateRestaurant} />
      <Route path="/createRestaurant" component={CreateRestaurant} />
      <Route path="/createHistory" component={CreateHistory} />
      <Route path="/createAttraction" component={CreateAttraction} />
