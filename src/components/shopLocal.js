@@ -73,13 +73,13 @@ export default class shopLocal extends Component {
       <h2 className="shoptextstyle">SHOPPING</h2>
       <div >
         <img src={Shop2} alt="woman shopping " id="shop2"/>
-       <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
+       <blockquote className="block"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
       </div>
      
  
       </div>
 
-      <div >
+      <div className="bodyody">
            { this.shopLocal()  }
                 </div>
      

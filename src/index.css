@@ -8,6 +8,7 @@ nav{
   font-family: cursive;
   font-size: 20px;
   height: auto;
+  
 }
 
 footer{
@@ -198,6 +199,8 @@ width: 100%;
 /* importing google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+
 
 
  #header-section-shop{
@@ -323,6 +326,9 @@ height: 385px;
 .shop-info{
 margin-top: 320px;
 margin-bottom: 70px;
+border-style: solid;
+border-color: black;
+
 }
 
 /* the h2 text below header */
@@ -330,11 +336,17 @@ margin-bottom: 70px;
   font-family: 'Nunito', sans-serif;
   font-size: 70px;
   margin-bottom: 100px;
+  font-weight:100px;
 }
 
 /* to create a margin around my content */
 .bodyody{
   margin-bottom: 200px;
+}
+
+/* to make the paragraphs in block */
+.block{
+  font-family: 'Krub', sans-serif;
 }
 
 /* shop and attraction css end */
