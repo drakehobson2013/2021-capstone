@@ -45,18 +45,16 @@ a.nav-link:hover{
 
 
 .gitImg{
-  border-radius: 50%;
-  height: 35px;
-  margin-top: 10px;
-  margin-left: 15px;
-  background: #EF476F;
+  height: 75px;
+  margin-top: -4px;
+  margin-left: -2px;
 }
 .gitImg:hover{
   opacity: 0.6;
 }
 
 .margin{
-margin-bottom: 115px;
+margin-bottom: 125px;
 padding: 0;
 box-sizing: border-box ;
 }

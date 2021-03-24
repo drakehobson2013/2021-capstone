@@ -1,16 +1,13 @@
 import React from 'react'
-import Github from './Images/GitHub_logo.png';
+import Linktree from './Images/Linktree.png';
 
 
 const footer = () => {
     return (
         
 <footer class="text-center fixed-bottom">
-<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg" src={Github} alt=""/></a>
-<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg" src={Github} alt=""/></a>
-<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg" src={Github} alt=""/></a>
-<a className="gitLink" href="https://github.com/drakehobson2013"><img className="gitImg" src={Github} alt=""/></a>
-  <p className="w3-medium text-white">Follow us on GitHub | ThisIsCincy©2021</p>
+
+  <p className="w3-medium text-white">Follow us on GitHub & LinkedIn | <a className="gitLink" href="https://linktr.ee/KableAcademy2021" target="https://linktr.ee/KableAcademy2021"><img className="gitImg" src={Linktree} alt=""/></a></p>
 </footer>
             
         
