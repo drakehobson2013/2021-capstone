@@ -1,18 +1,31 @@
+
 import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
+import Shop2 from './Images/shoppage2.jpg';
 
 
 const Shop = props => (
-  <tr>
-    <td>{props.shop.name}</td>
-    <td>{props.shop.description}</td>
-    <td><img src={props.shop.image} alt=""/></td>
-    <td>{props.shop.address}</td>
-    <td>{props.shop.city}</td>
-    <td>{props.shop.state}</td>
-    <td>{props.shop.zipcode}</td>
-  </tr>
+ 
+
+  <div className="card mb-3" id="card-style">
+  <div className="row g-0">
+  <div className="col-md-4">
+<img className="shopattractimg" src={props.shop.image}  alt=""/>
+</div>
+<div className="col-md-8">
+<div className="card-body card-shopattract-text zooani">
+   <h4 className="card-title titlestyle">{props.shop.name}</h4>
+   <p className='card-text'>{props.shop.description}</p>
+   <p>{props.shop.address} {props.shop.city} {props.shop.state}, {props.shop.zipcode}</p>
+ 
+ 
+ </div>
+ </div>
+ </div>
+ </div>
+
+  
 )
 
 export default class shopLocal extends Component {
@@ -56,30 +69,23 @@ export default class shopLocal extends Component {
       </div>
       </header>
 
+      <div className="shop-info text-center">
+      <h2 className="shoptextstyle">SHOPPING</h2>
+      <div >
+        <img src={Shop2} alt="woman shopping " id="shop2"/>
+       <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
       </div>
-        
-//       <div className="text-center">
+     
+ 
+      </div>
 
+      <div >
+           { this.shopLocal()  }
+                </div>
+     
 
-//         <h1>Best Shopping in Cincinnati!</h1>
-//         <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam, voluptatem neque tempora laudantium voluptas dicta, optio minus inventore voluptatibus rerum! Nisi ab ipsum doloribus vel eum veritatis velit voluptate deleniti nemo, ipsam aperiam consequuntur, minus aliquid ratione accusantium, distinctio omnis provident asperiores impedit earum. Vero enim culpa totam vitae.</span>
-//         <table className="table">
-//     <thead className="thead-light">
-//       <tr>
-//         <th>Name</th>
-//         <th>Description</th>
-//         <th>Image</th>
-//         <th>Address</th>
-//         <th>City</th>
-//         <th>State</th>
-//         <th>Zipcode</th>
-//       </tr>
-//     </thead>
-//     <tbody>
-//       { this.shopLocal() }
-//     </tbody>
-//   </table>
-// </div>
+      </div>
+     
       
 
 

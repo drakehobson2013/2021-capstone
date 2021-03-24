@@ -1,16 +1,18 @@
 /* my nav */
 nav{
-  background-color: #EAC435;
+  background-color: #EF476F;
   background-image: url(./components/Images/NavBack.png);
   background-repeat: no-repeat;
-  background-position-y: -17px;
+  background-position-y: -15px;
   background-position-x: center;
-  font-family: 'Fascinate', cursive;
+  font-family: cursive;
+  font-size: 20px;
   height: auto;
 }
 
 footer{
-  background: #EAC435;
+  background: #080705;
+  position: bottom;
 }
 
 .FlyingPig{
@@ -19,50 +21,69 @@ footer{
   width: 100px;
 }
 
+a.navbar-brand:hover{
+  opacity: 0.8;
+}
 a.nav-link{
   color: black;
 }
 a.nav-link:hover{
-  color: #03CEA4;
+  color: #F4FAFF;
 }
 /* my nav */
 
-#home{
-margin: 0;
+/* footer css */
+
+.noOvals{
+  border-radius: 50%;
+  width: 38px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+
+.gitImg{
+  border-radius: 50%;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background: #EF476F;
+}
+.gitImg:hover{
+  opacity: 0.6;
+}
+
+.margin{
+margin-bottom: 115px;
 padding: 0;
 box-sizing: border-box ;
 }
-section
-{
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-section video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 
+
+
+.home-bg{
+    background-image: url(./components/Images/Sing.jpg);
+    height: 125vh;
+    min-height: 300px;
+   
+    background: no repeat center center scroll rgba(255,255,255,0.5);;
+    background-size: cover; 
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+    
+
+}
+
+.logos{
+  height: 150px;
+}
+
+.jumbotron{
+  margin-top: 100px;
+  
+}
 
 /* Below is the CSS for the about pages. Img and card details. */
 /* .card {
@@ -147,6 +168,22 @@ img.cincy{
   overflow: hidden;
 }
 
+#about-head-bg{
+  background-image: url(./components/MetroCincy.jpg);
+  height: 100vh;
+  min-height: 300px;
+ 
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+}
+
+#about-header{
+  height: 700px;
+width: 100%;
+}
+
 
 
 
@@ -164,6 +201,7 @@ img.cincy{
 
 /* importing google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 
  #header-section-shop{
@@ -187,7 +225,29 @@ width: 100%;
 .attracttophead{
   background-image: url(./components/Images/attractpage.jpg);
   height: 100vh;
-  top: 50px;
+  top: 100px;
+  min-height: 300px;
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+
+}
+.eattophead{
+  background-image: url(./components/Images/Taste.png);
+  height: 100vh;
+  top: 100px;
+  min-height: 300px;
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+
+}
+.historyTopHead{
+  background-image: url(./components/Images/Museum.jpg);
+  height: 100vh;
+  top: 100px;
   min-height: 300px;
   background: no repeat center center scroll rgba(255,255,255,0.5);;
   background-size: cover; 
@@ -207,48 +267,86 @@ width: 100%;
   font-size: 50px;
 }
 
+/* gradient background div */
+/* .exp{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  height: 300px;
+  z-index: -1;
+} */
+
+.cardsize{
+  max-width: 540px;
+  z-index: 1;
+}
+
+.zooani{
+
+background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+border-bottom-right-radius: 50% 55%;
+height: 400px;
+}
+
+.attractimg{
+  height: 350px;
+  width:350px;
+  
+}
+
+.shopattractimg{
+  height:400px;
+  width: 550px;
+  filter: saturate(180%);
+  
+
+
+}
+
+.titlestyle{
+  font-size: 40px;
+}
+
+.card-shopattract-text{
+  font-family: 'Nunito', sans-serif;
+ 
+}
+
+.card-body:hover{
+  margin-top: -18px;
+ -moz-box-shadow:    0 0 50px #000000;
+ -webkit-box-shadow: 0 0 50px #000000;
+ box-shadow:         0 0 50px #000000;    
+}
+
+/* css for the image on the shop page */
+#shop2{
+margin-bottom: 40px;
+height: 385px;
+}
+
+/* css for the div between header and cards */
+.shop-info{
+margin-top: 320px;
+margin-bottom: 70px;
+}
+
+/* the h2 text below header */
+.shoptextstyle{
+  font-family: 'Nunito', sans-serif;
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+/* to create a margin around my content */
+.bodyody{
+  margin-bottom: 200px;
+}
 
 /* shop and attraction css end */
 
 
 
-#EatImg{
-  height: 250px;
-  border: .5px transparent #F7F7FF;
-}
 
-.card-text{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  color: #EAC435;
-}
 
-.opener{
-  font-family: serif;
-  font-size: 35px;
-  text-align: center;
-  text-shadow: 1px 1px #03CEA4;
-  color: #EAC435;
-  background: #345995;
-}
 
-.Eats{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 
-.card-body:hover{
-  /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
 
-  /* Below we are not using -26px for margin-top because .box has 6px border and 10px margin. */
-  /* That 16px is then divide by 2 since it's for both top and bottom, or 8px per side. */
-  /* Having said that, 26px - 8px is 18px. We need negative value to position it correctly. */
-  margin-top: -18px;
- -moz-box-shadow:    0 0 50px #03CEA4;
- -webkit-box-shadow: 0 0 50px #03CEA4;
- box-shadow:         0 0 50px #03CEA4;    
-}
-
-.card-body{
-  background-color: #345995;
-}
