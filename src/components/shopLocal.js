@@ -68,6 +68,10 @@ export default class shopLocal extends Component {
       </div>
       </header>
 
+      <div>
+        
+      </div>
+
       <div >
            { this.shopLocal()  }
                 </div>

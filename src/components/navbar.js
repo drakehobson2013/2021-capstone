@@ -39,8 +39,7 @@ export default class Navbar extends Component {
       </li>
     </ul>
     <form action="" className="form-inline my-2 my-lg-0">
-      <input type="search" className="form-control mr-sm-2" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-dark my-2 my-sm-0">Search</button>
+      <button className="btn btn-outline-light my-2 my-sm-0">Login</button>
     </form>
   </div>
   </nav>

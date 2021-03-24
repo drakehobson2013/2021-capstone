@@ -1,21 +1,22 @@
-import React from 'react'
+// import React from 'react'
 
 // const Modal= () => {
 //     constructor();{
-//         super();
+        
 //         this.state= {
 //             show: false
 //         };
 //         this.showModal = this.showModal.bind(this);
 //         this.hideModal = this.hideModal.bind(this);
 //     ;
-//     showModal = () => {
+    
+//     const showModal = () => {
 //         this.setState({ show: true });
 //     };
-//     hideModal = () => {
+//      const hideModal = () => {
 //         this.setState({ show: false });
 //     };
-//     render();{
+//     {
 //         return(
 //             <main>
 //                 <h1>Stay Connected With Our Newsletter!</h1>
