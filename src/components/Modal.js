@@ -1,10 +1,44 @@
 import React from 'react'
 
+    // constructor();{
+        
+    //     this.state= {
+    //         show: false
+    //     };
+    //     this.showModal = this.showModal.bind(this);
+    //     this.hideModal = this.hideModal.bind(this);
+    // ;
+    
+    // const showModal = () => {
+    //     this.setState({ show: true });
+    // };
+    //  const hideModal = () => {
+    //     this.setState({ show: false });
+    // };
+
 const Modal= () => {
+
+    constructor();{
+
+        var showModal = 
+            this.setState({ show: true });
+        
+         var hideModal =
+            this.setState({ show: false });
+        
+        
+        this.state= {
+            show: false
+        };
+        this.showModal = this.showModal.bind(this);
+        this.hideModal = this.hideModal.bind(this);
+
+      
     
         return(
 
             // modal
+
           <div className="modal"  id="NLModal" tabindex="-1" aria-labelledby="NLModalLabel" aria-hidden="true" style="display: none;">
             <div className="modal-dialog">
               <div className="modal-content">
@@ -30,37 +64,7 @@ const Modal= () => {
           
         )
       }
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    }
+      export default Modal 
 
-     
-
-
-     
-//     constructor();{
-        
-//         this.state= {
-//             show: false
-//         };
-//         this.showModal = this.showModal.bind(this);
-//         this.hideModal = this.hideModal.bind(this);
-//     ;
-    
-//     const showModal = () => {
-//         this.setState({ show: true });
-//     };
-//      const hideModal = () => {
-//         this.setState({ show: false });
-//     };
-//     {
-//         return(
-//             <main>
-//                 <h1>Stay Connected With Our Newsletter!</h1>
-//                 <button type="button" onClick={this.showModal}>Click Here 
-//                 </button>
-//             </main>
-//         );
-//     };
-// }
-
-
-export default Modal
+   

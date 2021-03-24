@@ -11,7 +11,7 @@ const Contact = () => {
         <div>
              <div class="w3-container w3-content w3-padding-64" style={{maxWidth:"800px"}} id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Want to reach us!</i></p>
+    <p class="w3-opacity w3-center"><i>Want to reach us?</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style={{width:'30px'}}></i> Ohio, US<br/>
@@ -33,7 +33,13 @@ const Contact = () => {
         </form>
       </div>
     </div>
+
+    
+    <div id="NewsModal" onClick="open ('#NLModal')"  >
+    <p>Subscribe to Our Newsletter!</p>
+    {/* <a href="#NLModal" class="btn btn-dark" data-toggle="modal" data-target={Modal}>Subscribe to Our Newsletter</a> */}
     <button type="button" className="btn btn-dark" data-toggle="modal" data-target="#NLModal">Click Here to Subscribe</button>
+    </div>
   </div>
   
         </div>
