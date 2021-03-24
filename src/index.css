@@ -267,7 +267,11 @@ width: 100%;
 }
 
 .bigger-font{
-  font-size: 50px;
+  font-size: 100px;
+  color: #EF476F;
+  font-weight: 30px;
+  
+  
 }
 
 /* gradient background div */
@@ -305,7 +309,8 @@ height: 400px;
 }
 
 .titlestyle{
-  font-size: 40px;
+  font-size:50px;
+
 }
 
 .card-shopattract-text{
@@ -324,6 +329,20 @@ height: 400px;
 #shop2{
 margin-bottom: 40px;
 height: 385px;
+width: 100%;
+}
+
+#coneyimg{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+#cincyhistory{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 /* css for the div between header and cards */
@@ -332,6 +351,8 @@ margin-top: 320px;
 margin-bottom: 70px;
 border-style: solid;
 border-color: black;
+width:650px;
+
 
 }
 
@@ -353,6 +374,18 @@ border-color: black;
   font-family: 'Krub', sans-serif;
 }
 
+.aqua{
+  font-size: 20px;
+}
+
+.bat{
+  font-size: 20px;
+  font-weight: 40px;
+}
+
+.wonder{
+  font-size: 20px;
+}
 /* shop and attraction css end */
 
 

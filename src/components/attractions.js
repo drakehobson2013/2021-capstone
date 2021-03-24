@@ -15,7 +15,7 @@ const Attraction = props => (
 <div className="col-md-8">
 <div className="card-body card-shopattract-text zooani">
    <h4 className="card-title titlestyle">{props.attraction.name}</h4>
-   <p className='card-text'>{props.attraction.description}</p>
+   <p className='card-text wonder'>{props.attraction.description}</p>
    <p>{props.attraction.address} {props.attraction.city}, {props.attraction.state} {props.attraction.zipcode}</p>
  
  
@@ -58,18 +58,19 @@ export default class Attractions extends Component {
       <header id="header-section-shop">
       <div className="container-fluid attracttophead">
       <div className="header-text">
-      <h2 className="bigger-font text-white">Attractions</h2>
-      <p>Whether it’s luxury designer boutiques, concept shops or outlet malls.</p>
+      <h2 className="bigger-font ">Attractions</h2>
+      <p className="bat">Whether it’s luxury designer boutiques, concept shops or outlet malls. 
+      </p>
       </div>
       </div>
       </header>
 
 
-      <div className="shop-info text-center">
-      <h2 className="shoptextstyle">ATTRACTIONS</h2>
+      <div className="shop-info ">
+      <h2 className="shoptextstyle text-center">ATTRACTIONS</h2>
       <div >
         <img src={Attract2} alt="woman shopping" id="shop2"/>
-       <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
+       <p className="aqua">  Be inspired at the National Underground Freedom Center or stroll the world's known zoo. Ride the greatest wooden roller coaster ever built at Kings Island and hold on tight. Cincinnati's attractions often lure attendees before and after the convention... and provide an energizing space to hold a meeting or breakout section.</p>
       </div>
       </div>
       
