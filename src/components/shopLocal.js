@@ -69,13 +69,14 @@ export default class shopLocal extends Component {
       </div>
       </header>
 
-      <div className="shop-info text-center">
+      <div className="container-fluid parent">
+      <div className="shop-info child">
       <h2 className="shoptextstyle">SHOPPING IN CINCINNATI</h2>
       <div >
         <img src={Shop2} alt="woman shopping " id="shop2"/>
        <p className="aqua"> Whether you’re looking for bargain deals on designer clothes or antiques with a history, we’ve got the resources for you to shop ‘til you drop. Head out for the day and explore locally-owned boutiques, outlet stores, shopping malls – and even some fun foodie finds at local markets and shops. You won’t go home empty-handed!</p>
       </div>
-     
+     </div>
  
       </div>
 

@@ -56,14 +56,15 @@ export default class CincyHistory extends Component {
       </div>
       </header>
 
-      <div className="shop-info ">
+      <div className="container-fluid parent">
+      <div className="shop-info child ">
       <h2 className="shoptextstyle text-center">HISTORY</h2>
       <div >
         <img src={tour} alt="woman shopping" id="cincyhistory"/>
        <p className="aqua">The Cincinnati and Northern Kentucky region is steeped in a rich history and legacy. Experience our German heritage, marvel at the Art Deco architecture throughout the area, and delve below city streets to relive the history of our unique river region. Take a guided tour or explore on your own and learn about Cincinnati’s brewing heritage, the region’s strong role in baseball history, or taste samples from popular restaurants in revitalized neighborhoods. </p>
       </div>
       </div>
-
+      </div>
 { this.cincyHistory() }
 
 </div>

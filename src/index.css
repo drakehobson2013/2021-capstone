@@ -292,7 +292,7 @@ width: 100%;
 
 .cardsize{
   max-width: 540px;
-  z-index: 1;
+ 
 }
 
 .zooani{
@@ -356,20 +356,40 @@ width: 100%;
 
 /* css for the div between header and cards */
 .shop-info{
-margin-top: 320px;
-margin-bottom: 70px;
+/* margin-top: 120px; */
+/* margin-bottom: 70px; */
 border-style: solid;
 border-color: black;
 width:650px;
 
+}
+
+.parent{
+  position: relative;
+  height:1000px;
+  margin-bottom: 100px;
+  margin-top: 300px;
+  background-color:  #EF476F;
+
+
+ 
 
 }
 
+.child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  background-color: white;
+
+}
 /* the h2 text below header */
 .shoptextstyle{
   font-family: 'Nunito', sans-serif;
   font-size: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   font-weight:100px;
 }
 
@@ -378,13 +398,13 @@ width:650px;
   margin-bottom: 200px;
 }
 
-/* to make the paragraphs in block */
-.block{
-  font-family: 'Krub', sans-serif;
-}
 
 .aqua{
   font-size: 20px;
+  text-align:justify ;
+  font-family: 'Krub', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bat{

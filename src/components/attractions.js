@@ -65,14 +65,16 @@ export default class Attractions extends Component {
       </div>
       </header>
 
-
-      <div className="shop-info ">
+      <div className="container-fluid parent">
+      <div className="shop-info child ">
       <h2 className="shoptextstyle text-center">ATTRACTIONS</h2>
       <div >
         <img src={Attract2} alt="woman shopping" id="shop2"/>
-       <p className="aqua">  Be inspired at the National Underground Freedom Center or stroll the world's known zoo. Ride the greatest wooden roller coaster ever built at Kings Island and hold on tight. Cincinnati's attractions often lure attendees before and after the convention... and provide an energizing space to hold a meeting or breakout section.</p>
+         <p className="aqua">  Be inspired at the National Underground Freedom Center or stroll the world's known zoo. Ride the greatest wooden roller coaster ever built at Kings Island and hold on tight. Cincinnati's attractions often lure attendees before and after the convention... and provide an energizing space to hold a meeting or breakout section.</p>
+       </div> 
       </div>
       </div>
+      
       
       <div className="bodyody">
            { this.Attractions()  }
