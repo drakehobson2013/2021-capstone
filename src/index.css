@@ -8,6 +8,7 @@ nav{
   font-family: cursive;
   font-size: 20px;
   height: auto;
+  
 }
 
 footer{
@@ -213,6 +214,8 @@ width: 100%;
 /* importing google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+
 
 
  #header-section-shop{
@@ -275,7 +278,11 @@ width: 100%;
 }
 
 .bigger-font{
-  font-size: 50px;
+  font-size: 100px;
+  color: #EF476F;
+  font-weight: 30px;
+  
+  
 }
 
 /* gradient background div */
@@ -313,7 +320,8 @@ height: 400px;
 }
 
 .titlestyle{
-  font-size: 40px;
+  font-size:50px;
+
 }
 
 .card-shopattract-text{
@@ -332,12 +340,31 @@ height: 400px;
 #shop2{
 margin-bottom: 40px;
 height: 385px;
+width: 100%;
+}
+
+#coneyimg{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+#cincyhistory{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 /* css for the div between header and cards */
 .shop-info{
 margin-top: 320px;
 margin-bottom: 70px;
+border-style: solid;
+border-color: black;
+width:650px;
+
+
 }
 
 /* the h2 text below header */
@@ -345,6 +372,7 @@ margin-bottom: 70px;
   font-family: 'Nunito', sans-serif;
   font-size: 70px;
   margin-bottom: 100px;
+  font-weight:100px;
 }
 
 /* to create a margin around my content */
@@ -352,6 +380,23 @@ margin-bottom: 70px;
   margin-bottom: 200px;
 }
 
+/* to make the paragraphs in block */
+.block{
+  font-family: 'Krub', sans-serif;
+}
+
+.aqua{
+  font-size: 20px;
+}
+
+.bat{
+  font-size: 20px;
+  font-weight: 40px;
+}
+
+.wonder{
+  font-size: 20px;
+}
 /* shop and attraction css end */
 
 
