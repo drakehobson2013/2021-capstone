@@ -117,12 +117,17 @@ div.about {
   border-Color: red
   
 } */
+#intro{
+  font-size: 20px;
+}
+
 #drake {
   align-self: flex-end;
   width: 150px;
   height: 150px;
  border-radius: 50%;
   border-Width: 3;
+  text-shadow: 3px yellowgreen;
 }
 #aarika{
   align-self: flex-end;
@@ -183,6 +188,12 @@ img.cincy{
 #about-header{
   height: 700px;
 width: 100%;
+}
+#about-text{
+  font-size: 20px;
+  text-shadow: #17181a 15%;
+  color: #faf6f8;
+  
 }
 
 
