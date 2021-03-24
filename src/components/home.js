@@ -33,8 +33,18 @@ const Home = () => {
           </div>
           <div className="col-6">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/G8EUiH00BrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div className="jumbotron bg-danger">
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestias nostrum sint possimus excepturi provident?</span>
+          
+          <div class="clearfix mx-auto">
+          <div style={{width:"100%",height:"0",paddingBottom:"56%",position:"relative"}}><iframe src="https://giphy.com/embed/3oKIPBuGeZjI62PuOA" width="100%" height="100%"
+           style={{position:"absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/gobearcatsmbb-cincinnati-strong-3oKIPBuGeZjI62PuOA">via GIPHY</a></p>
+   
+</div>
+
+      <div className="jumbotron bg-light">
+        <span>The video representing cincinnati's architecture and some of the best attractions in cincinnati, with the ohio river and kentucky just across </span>
+        
+        
+
       </div>
           </div>
           <div className="col-3">
