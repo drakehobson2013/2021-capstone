@@ -75,9 +75,7 @@ export default class Attractions extends Component {
       </div>
       </div>
       
-      <div className="container-fluid pback">
-
-      </div>
+     
       
       <div className="bodyody">
            { this.Attractions()  }
