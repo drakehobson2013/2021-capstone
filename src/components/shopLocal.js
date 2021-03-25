@@ -63,21 +63,25 @@ export default class shopLocal extends Component {
       <header id="header-section-shop">
       <div className="container-fluid shoptophead">
       <div className="header-text">
-      <h2 className="bigger-font ">SHOPPING</h2>
+      <h2 className="bigger-font ">SHOP 'TIL YOU DROP</h2>
       <p className="bat">From signature stores to high-quality shopping centers</p>
       </div>
       </div>
       </header>
 
-      <div className="container-fluid parent">
+      <div className="container-fluid parent ">
       <div className="shop-info child">
-      <h2 className="shoptextstyle">SHOPPING IN CINCINNATI</h2>
+      <h2 className="shoptextstyle text-center">SHOPPING</h2>
       <div >
         <img src={Shop2} alt="woman shopping " id="shop2"/>
        <p className="aqua"> Whether you’re looking for bargain deals on designer clothes or antiques with a history, we’ve got the resources for you to shop ‘til you drop. Head out for the day and explore locally-owned boutiques, outlet stores, shopping malls – and even some fun foodie finds at local markets and shops. You won’t go home empty-handed!</p>
       </div>
      </div>
  
+      </div>
+
+      <div className="container-fluid pback">
+
       </div>
 
       <div className="bodyody">

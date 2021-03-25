@@ -57,7 +57,7 @@ export default class EatLocal extends Component {
       </div>
       </header>
 
-      <div className="container-fluid parent">
+      <div className="container-fluid parent phback">
       <div className="shop-info child ">
       <h2 className="shoptextstyle text-center">RESTAURANTS</h2>
       <div >

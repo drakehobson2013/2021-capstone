@@ -369,12 +369,40 @@ width:650px;
   height:1000px;
   margin-bottom: 100px;
   margin-top: 300px;
-  background-color:  #EF476F;
-
-
  
-
 }
+
+.pback{
+   background-image: url("./components/Images/greatamerican.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:500px;
+}
+
+.paback{
+  background-image: url("./components/Images/wheel.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.peback{
+  background-image: url("./components/Images/musicHall.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.phback{
+  background-image: url("./components/Images/bridgecity.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 
 .child{
   position: absolute;
@@ -418,6 +446,9 @@ width:650px;
 /* shop and attraction css end */
 
 
+
+
+/* media queries to make the responsive on mobile, tablets, laptop, desktop */
 
 
 

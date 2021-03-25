@@ -56,7 +56,7 @@ export default class CincyHistory extends Component {
       </div>
       </header>
 
-      <div className="container-fluid parent">
+      <div className="container-fluid parent peback">
       <div className="shop-info child ">
       <h2 className="shoptextstyle text-center">HISTORY</h2>
       <div >

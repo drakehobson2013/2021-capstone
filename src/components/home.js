@@ -14,7 +14,7 @@ const Home = () => {
       <div className="container-fluid home-bg">
       <div className="header-text">
       <h2 className="bigger-font text-white">Welcome To Cincinnati!</h2>
-      <p className="text-white">Cincinnati boasts a thriving arts scene, major league sports teams, a world-class zoo and aquarium and a revitalized riverfront with shopping, clubs and restaurants. Located on the Ohio River in southwestern Ohio, Cinci claims more than 4,000 restaurants, and more chili restaurants than any other city in the world. Adrenaline-junkies will want to visit the nearby Kentucky Speedway and Paramount's Kings Island, home of the tallest and fastest wooden roller coaster in the world.</p>
+      <p className=" bat text-white">Cincinnati boasts a thriving arts scene, major league sports teams, a world-class zoo and aquarium and a revitalized riverfront with shopping, clubs and restaurants. Located on the Ohio River in southwestern Ohio, Cinci claims more than 4,000 restaurants, and more chili restaurants than any other city in the world. Adrenaline-junkies will want to visit the nearby Kentucky Speedway and Paramount's Kings Island, home of the tallest and fastest wooden roller coaster in the world.</p>
       </div>
       </div>
       <div className="container-fluid text-center mt-5">
