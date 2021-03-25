@@ -34,7 +34,6 @@ const Home = () => {
           <div className="col-6">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/G8EUiH00BrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-          <div ClassName="price"></div>
           
           <div ClassName="col-6">
           <div class="clearfix mx-auto">
