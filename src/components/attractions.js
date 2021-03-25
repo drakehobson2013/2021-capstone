@@ -58,20 +58,25 @@ export default class Attractions extends Component {
       <header id="header-section-shop">
       <div className="container-fluid attracttophead">
       <div className="header-text">
-      <h2 className="bigger-font ">Attractions</h2>
+      <h2 className="bigger-font ">EXPLORE CINCINNATI</h2>
       <p className="bat">Whether it’s luxury designer boutiques, concept shops or outlet malls. 
       </p>
       </div>
       </div>
       </header>
 
-
-      <div className="shop-info ">
-      <h2 className="shoptextstyle text-center">ATTRACTIONS</h2>
+      <div className="container-fluid parent pback">
+      <div className="shop-info child ">
+      <h2 className="shoptextstyle text-center">Attractions</h2>
       <div >
         <img src={Attract2} alt="woman shopping" id="shop2"/>
-       <p className="aqua">  Be inspired at the National Underground Freedom Center or stroll the world's known zoo. Ride the greatest wooden roller coaster ever built at Kings Island and hold on tight. Cincinnati's attractions often lure attendees before and after the convention... and provide an energizing space to hold a meeting or breakout section.</p>
+         <p className="aqua">  Be inspired at the National Underground Freedom Center or stroll the world's known zoo. Ride the greatest wooden roller coaster ever built at Kings Island and hold on tight. Cincinnati's attractions often lure attendees before and after the convention... and provide an energizing space to hold a meeting or breakout section.</p>
+       </div> 
       </div>
+      </div>
+      
+      <div className="container-fluid pback">
+
       </div>
       
       <div className="bodyody">

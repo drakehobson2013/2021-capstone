@@ -1,6 +1,6 @@
 /* my nav */
 nav{
-  background-color: #EF476F;
+  background-color: #085a8a;
   background-image: url(./components/Images/NavBack.png);
   background-repeat: no-repeat;
   background-position-y: -15px;
@@ -60,6 +60,61 @@ box-sizing: border-box ;
 }
 
 
+.price {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price{
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
 
 
 .home-bg{
@@ -74,6 +129,9 @@ box-sizing: border-box ;
     
 
 }
+
+
+
 
 .logos{
   height: 150px;
@@ -335,7 +393,7 @@ width: 100%;
 
 .cardsize{
   max-width: 540px;
-  z-index: 1;
+ 
 }
 
 .zooani{
@@ -399,20 +457,68 @@ width: 100%;
 
 /* css for the div between header and cards */
 .shop-info{
-margin-top: 320px;
-margin-bottom: 70px;
+/* margin-top: 120px; */
+/* margin-bottom: 70px; */
 border-style: solid;
 border-color: black;
 width:650px;
 
-
 }
 
+.parent{
+  position: relative;
+  height:1000px;
+  margin-bottom: 100px;
+  margin-top: 300px;
+ 
+}
+
+.pback{
+   background-image: url("./components/Images/greatamerican.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:500px;
+}
+
+.paback{
+  background-image: url("./components/Images/wheel.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.peback{
+  background-image: url("./components/Images/musicHall.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.phback{
+  background-image: url("./components/Images/bridgecity.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+.child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  background-color: white;
+
+}
 /* the h2 text below header */
 .shoptextstyle{
   font-family: 'Nunito', sans-serif;
   font-size: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   font-weight:100px;
 }
 
@@ -421,13 +527,13 @@ width:650px;
   margin-bottom: 200px;
 }
 
-/* to make the paragraphs in block */
-.block{
-  font-family: 'Krub', sans-serif;
-}
 
 .aqua{
   font-size: 20px;
+  text-align:justify ;
+  font-family: 'Krub', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bat{
@@ -441,6 +547,9 @@ width:650px;
 /* shop and attraction css end */
 
 
+
+
+/* media queries to make the responsive on mobile, tablets, laptop, desktop */
 
 
 

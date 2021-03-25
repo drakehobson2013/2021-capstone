@@ -14,7 +14,7 @@ const Home = () => {
       <div className="container-fluid home-bg">
       <div className="header-text">
       <h2 className="bigger-font text-white">Welcome To Cincinnati!</h2>
-      <p className="text-white">Cincinnati boasts a thriving arts scene, major league sports teams, a world-class zoo and aquarium and a revitalized riverfront with shopping, clubs and restaurants. Located on the Ohio River in southwestern Ohio, Cinci claims more than 4,000 restaurants, and more chili restaurants than any other city in the world. Adrenaline-junkies will want to visit the nearby Kentucky Speedway and Paramount's Kings Island, home of the tallest and fastest wooden roller coaster in the world.</p>
+      <p className=" bat text-white">Cincinnati boasts a thriving arts scene, major league sports teams, a world-class zoo and aquarium and a revitalized riverfront with shopping, clubs and restaurants. Located on the Ohio River in southwestern Ohio, Cinci claims more than 4,000 restaurants, and more chili restaurants than any other city in the world. Adrenaline-junkies will want to visit the nearby Kentucky Speedway and Paramount's Kings Island, home of the tallest and fastest wooden roller coaster in the world.</p>
       </div>
       </div>
       <div className="container-fluid text-center mt-5">
@@ -33,8 +33,21 @@ const Home = () => {
           </div>
           <div className="col-6">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/G8EUiH00BrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div className="jumbotron bg-danger">
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestias nostrum sint possimus excepturi provident?</span>
+
+          <div ClassName="price"></div>
+          
+          <div ClassName="col-6">
+          <div class="clearfix mx-auto">
+                  <div style={{width:"100%",height:"0",paddingBottom:"56%",position:"relative", paddingRight:"565px"}}><iframe src="https://giphy.com/embed/3oKIPBuGeZjI62PuOA" width="100%" height="100%"
+           style={{position:"absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/gobearcatsmbb-cincinnati-strong-3oKIPBuGeZjI62PuOA">via GIPHY</a></p>
+   </div>
+</div>
+
+      <div className="jumbotron bg-light">
+        <span>The video representing cincinnati's architecture and some of the best attractions in cincinnati, with the ohio river and kentucky just across </span>
+        
+        
+
       </div>
           </div>
           <div className="col-3">
@@ -49,10 +62,12 @@ const Home = () => {
               <img className="logos" src={FC} alt=""/>
             </div>
           </div>
+
+        
+
         </div>
       </div>
-     
-    
+
 </header>
 </div>
 
