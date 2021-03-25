@@ -143,36 +143,14 @@ box-sizing: border-box ;
 }
 
 /* Below is the CSS for the about pages. Img and card details. */
-/* .card {
-  width: 70%;
-  width: 85%;
-  height: 25%;
-  color: rgb(82, 58, 58);
-  position: static;
-  font-size: 17px; */
-  /* border: black;
-  border-width: medium; */
 
-/* } */
 
 div.about {
   border: thick;
   border-color: tomato;
 }
 
-/* #deck{
-  border: black;
-  border-width: thick;
-} */
 
-/* img{
-  width: 150px;
-  height: 150px;
- border-radius: 50%;
-  border-Width: 3;
-  border-Color: red
-  
-} */
 #intro{
   font-size: 20px;
 }

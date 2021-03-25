@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useState} from 'react';
 
 
 
@@ -19,12 +18,10 @@ import CreateRestaurant from "./components/CreateRestaurant";
 import CreateHistory from "./components/CreateHistory";
 import CreateShop from "./components/CreateShop";
 import CreateAttraction from "./components/CreateAttraction";
-import Modal from './components/Modal';
 
 
 function App() {
 
-  const [show, setShow] = useState(false); 
   
   
   return (
@@ -51,12 +48,7 @@ function App() {
  
     </Switch> 
 
-    <div>
-    <button onClick={() => setShow(true) } className="btn btn-dark">Subscribe to Our Newsletter!</button>
-      <Modal title="Newsletter" onClose={() => setShow(false)} show={show}>
-        <p>Modal Body</p>
-      </Modal>
-    </div>
+
 
      <Footer /> 
     </div>

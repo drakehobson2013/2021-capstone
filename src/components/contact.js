@@ -1,8 +1,13 @@
 import React from 'react';
 import Modal from './Modal'
+import {useState} from 'react';
 
 const Contact = () => {
 
+  
+  const [show, setShow] = useState(false); 
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
   
     return (
       
@@ -31,12 +36,19 @@ const Contact = () => {
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"/>
           <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
         </form>
+        <br/>
 
 
       </div>
+      <div>
+    <button onClick={handleShow } className="btn btn-dark">Subscribe to Our Newsletter!</button>
+      <Modal title="Newsletter" onClose={handleClose} show={show}>
+        <p>Modal Body</p>
+      </Modal>
+    </div>
     </div>
   </div>
-  
+ 
         </div>
 
         

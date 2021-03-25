@@ -1,9 +1,9 @@
 import React from 'react'
-// import { CSSTransition } from 'react-transition-group';
+
 
 
 const Modal= props => {
-    
+
     return(
         // <CSSTransition in={props.show} unmountOnExit timeout={{enter: 0, exit: 300 }}>
        
