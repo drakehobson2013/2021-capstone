@@ -8,7 +8,7 @@ const Contact = () => {
       
     
 
-        <div>
+        <div id='contact-body'>
              <div class="w3-container w3-content w3-padding-64" style={{maxWidth:"800px"}} id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
     <p class="w3-opacity w3-center"><i>Want to reach us?</i></p>
@@ -31,14 +31,9 @@ const Contact = () => {
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"/>
           <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
         </form>
-      </div>
-    </div>
 
-    
-    <div id="NewsModal" onClick="open ('#NLModal')"  >
-    <p>Subscribe to Our Newsletter!</p>
-    {/* <a href="#NLModal" class="btn btn-dark" data-toggle="modal" data-target={Modal}>Subscribe to Our Newsletter</a> */}
-    <button type="button" className="btn btn-dark" data-toggle="modal" data-target="#NLModal">Click Here to Subscribe</button>
+
+      </div>
     </div>
   </div>
   

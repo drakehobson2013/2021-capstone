@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {useState} from 'react';
+
 
 
 // Import Components
@@ -22,12 +24,17 @@ import Modal from './components/Modal';
 
 function App() {
 
+  const [show, setShow] = useState(false); 
+  
+  
   return (
+
+    
 
     <Router>
     <div className="App">
     <Navbar />
- 
+    
     <Switch>  
      <Route exact path="/" component={Home} />
      <Route path="/about" component={About} />
@@ -44,25 +51,31 @@ function App() {
  
     </Switch> 
 
-    {/* <main>
-      <h1>Stay Connected With Our Newsletter!</h1>
-      <button type="button" onClick={this.showModal}>Click Here 
-      </button>
-  </main> */}
+    <div>
+    <button onClick={() => setShow(true) } className="btn btn-dark">Subscribe to Our Newsletter!</button>
+      <Modal title="Newsletter" onClose={() => setShow(false)} show={show}>
+        <p>Modal Body</p>
+      </Modal>
+    </div>
+
      <Footer /> 
     </div>
   
 
     </Router>
-
-
-  
-
-
    
   );
   
-}
+  // const [show, setShow] = useState(false) 
+
+  //   return (
+  //   <div>
+  //   <button onClick={() => setShow(true) } className="btn btn-dark">Subscribe to Our Newsletter!</button>
+  //     <Modal onClose={() => setShow(false)} show={show}/>
+  //   </div>
+  //   );
+  }
+    
 
 export default App
 
