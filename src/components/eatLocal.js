@@ -3,7 +3,7 @@ import axios from 'axios';
 import coney from './Images/coneys.jpg';
 
 const Restaurant = props => (
-  <div className="card mb-3 card-style">
+  <div className="card mb-3 card-style" id="card-style">
   <div className="row g-0">
   <div className="col-md-4">
 <img className="shopattractimg" src={props.restaurant.image}  alt=""/>
@@ -12,7 +12,7 @@ const Restaurant = props => (
 <div className="card-body card-shopattract-text zooani">
    <h4 className="card-title titlestyle">{props.restaurant.name}</h4>
    <h5 className='card-text wonder'>{props.restaurant.description}</h5>
-   <p>{props.restaurant.address} {props.restaurant.city}, {props.restaurant.state} {props.restaurant.zipcode}</p>
+   <p className='mobile-text tablet-text'>{props.restaurant.address} {props.restaurant.city}, {props.restaurant.state} {props.restaurant.zipcode}</p>
  
  
  </div>
@@ -47,7 +47,7 @@ export default class EatLocal extends Component {
     return (
 
         
-<div className="margin">
+<div className="margin blackback">
 <header id="header-section-shop">
       <div className="container-fluid eattophead">
       <div className="header-text">

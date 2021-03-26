@@ -3,7 +3,7 @@ import axios from 'axios';
 import tour from './Images/historytour.jpg';
 
 const History = props => (
-  <div className="card mb-3 card-style">
+  <div className="card mb-3 card-style" id="card-style">
   <div className="row g-0">
   <div className="col-md-4">
 <img className="shopattractimg" src={props.history.image}  alt=""/>
@@ -12,7 +12,7 @@ const History = props => (
 <div className="card-body card-shopattract-text zooani">
    <h4 className="card-title titlestyle">{props.history.name}</h4>
    <h5 className='card-text wonder'>{props.history.description}</h5>
-   <p>{props.history.address} {props.history.city}, {props.history.state} {props.history.zipcode}</p>
+   <p className='mobile-text tablet-text'>{props.history.address} {props.history.city}, {props.history.state} {props.history.zipcode}</p>
  
  
  </div>
@@ -46,7 +46,7 @@ export default class CincyHistory extends Component {
   render() {
     return (
         
-<div className="margin">
+<div className="margin blackback">
 <header id="header-section-shop">
       <div className="container-fluid historyTopHead">
       <div className="header-text">

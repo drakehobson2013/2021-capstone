@@ -16,7 +16,7 @@ const Attraction = props => (
 <div className="card-body card-shopattract-text zooani">
    <h4 className="card-title titlestyle">{props.attraction.name}</h4>
    <p className='card-text wonder'>{props.attraction.description}</p>
-   <p>{props.attraction.address} {props.attraction.city}, {props.attraction.state} {props.attraction.zipcode}</p>
+   <p className="mobile-text tablet-text">{props.attraction.address} {props.attraction.city}, {props.attraction.state} {props.attraction.zipcode}</p>
  
  
  </div>
@@ -52,7 +52,7 @@ export default class Attractions extends Component {
   render() {
     return (
 
-      <div >
+      <div className="blackback" >
 
       
       <header id="header-section-shop">
