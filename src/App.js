@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
+
 // Import Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -17,17 +18,20 @@ import CreateRestaurant from "./components/CreateRestaurant";
 import CreateHistory from "./components/CreateHistory";
 import CreateShop from "./components/CreateShop";
 import CreateAttraction from "./components/CreateAttraction";
-import Modal from './components/Modal';
 
 
 function App() {
 
+  
+  
   return (
+
+    
 
     <Router>
     <div className="App">
     <Navbar />
- 
+    
     <Switch>  
      <Route exact path="/" component={Home} />
      <Route path="/about" component={About} />
@@ -44,25 +48,26 @@ function App() {
  
     </Switch> 
 
-    {/* <main>
-      <h1>Stay Connected With Our Newsletter!</h1>
-      <button type="button" onClick={this.showModal}>Click Here 
-      </button>
-  </main> */}
+
+
      <Footer /> 
     </div>
   
 
     </Router>
-
-
-  
-
-
    
   );
   
-}
+  // const [show, setShow] = useState(false) 
+
+  //   return (
+  //   <div>
+  //   <button onClick={() => setShow(true) } className="btn btn-dark">Subscribe to Our Newsletter!</button>
+  //     <Modal onClose={() => setShow(false)} show={show}/>
+  //   </div>
+  //   );
+  }
+    
 
 export default App
 

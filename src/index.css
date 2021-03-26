@@ -1,6 +1,6 @@
 /* my nav */
 nav{
-  background-color: #085a8a;
+  background-color: #a00641;
   background-image: url(./components/Images/NavBack.png);
   background-repeat: no-repeat;
   background-position-y: -15px;
@@ -60,6 +60,16 @@ box-sizing: border-box ;
 }
 
 
+.price {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
 
 
 .home-bg{
@@ -75,6 +85,9 @@ box-sizing: border-box ;
 
 }
 
+
+
+
 .logos{
   height: 150px;
 }
@@ -85,36 +98,14 @@ box-sizing: border-box ;
 }
 
 /* Below is the CSS for the about pages. Img and card details. */
-/* .card {
-  width: 70%;
-  width: 85%;
-  height: 25%;
-  color: rgb(82, 58, 58);
-  position: static;
-  font-size: 17px; */
-  /* border: black;
-  border-width: medium; */
 
-/* } */
 
 div.about {
   border: thick;
   border-color: tomato;
 }
 
-/* #deck{
-  border: black;
-  border-width: thick;
-} */
 
-/* img{
-  width: 150px;
-  height: 150px;
- border-radius: 50%;
-  border-Width: 3;
-  border-Color: red
-  
-} */
 #intro{
   font-size: 20px;
 }
@@ -194,13 +185,56 @@ width: 100%;
   
 }
 
-
-
-
-
-
 /* About Page Style End */
 
+/* Modal within Contact Page*/
+
+#contact-body{
+  background-image: url(./components/contact.bg.jpg);
+}
+
+.modal {
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #daae51;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.modal.show{
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.modal-content {
+  width: 400px;
+  background-color: #EF476F;
+  transform: translateY(-200px);
+  transition: all 0.2s ease-in-out;
+}
+.modal.show .modal-content {
+  transform: translateY(0);
+}
+.modal-header, .modal-footer {
+  padding: 10px;
+}
+
+.modal-title{
+  margin: 0;
+}
+
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke
+}
 
 
 
